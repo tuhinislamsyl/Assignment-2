@@ -583,3 +583,199 @@ nav>ul>li>a {
         margin-left: 0;
     }
 }
+
+/* --- Tablet Laptop Styles --- */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    nav {
+        padding: 0 2rem;
+        justify-content: space-between;
+    }
+
+    nav>ul {
+        gap: 1.5rem;
+    }
+
+    .banner-content {
+        padding: 350px 2rem 80px;
+    }
+
+    #hero-circle {
+        width: 350px;
+        top: 15%;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    #microphone {
+        width: 120px;
+        top: 22%;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .btn-new {
+        top: 18%;
+        left: 58%;
+    }
+
+    .banner-title {
+        font-size: 3.5rem;
+    }
+
+    .podcast-container {
+        padding: 80px 2rem;
+    }
+
+    .podcast-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        text-align: center;
+    }
+
+    #techwave-section {
+        padding: 80px 2rem;
+    }
+
+    .techwave-card {
+        grid-template-areas:
+            "premium mobile"
+            "premium global"
+            "exclusive resource";
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .featured-section {
+        padding: 80px 2rem;
+    }
+
+    .featured-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .featured-card {
+        width: 100%;
+    }
+
+    .featured-card>iframe {
+        width: 100%;
+    }
+
+    .host-container {
+        padding: 3rem 2rem;
+    }
+
+    .host-info {
+        gap: 2rem;
+    }
+
+    .footer {
+        height: auto;
+        padding: 60px 2rem;
+    }
+
+    .footer-icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem 3rem;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+/* --- Large Device Styles  --- */
+@media screen and (min-width: 992px) {
+
+    nav {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 120px;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    .banner {
+        height: 47.5rem;
+        position: relative;
+    }
+
+    .banner-content {
+        padding-top: 491px;
+        text-align: center;
+    }
+
+    #hero-circle {
+        top: 16%;
+        right: 41%;
+        position: absolute;
+    }
+
+    #microphone {
+        top: 27%;
+        right: 47%;
+        position: absolute;
+    }
+
+    .btn-new {
+        top: 21%;
+        left: 55%;
+        font-size: 1.125rem;
+    }
+
+    .podcast-container {
+        padding: 120px 200px;
+    }
+
+    .podcast-card {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .techwave-card {
+        display: grid;
+        grid-template-areas:
+            "premium mobile mobile"
+            "premium global global"
+            "exclusive exclusive resource";
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .featured-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .featured-card {
+        width: 380px;
+    }
+
+    .host-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 40px;
+    }
+
+    .host-info {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .footer {
+        height: 412px;
+    }
+
+    .footer-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+}
