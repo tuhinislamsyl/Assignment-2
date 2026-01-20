@@ -342,3 +342,40 @@ nav>ul>li>a {
     align-items: center;
     justify-content: center;
 }
+
+/* footer related styles */
+.footer {
+    background-image: url(../assets/footer-bg.png);
+    background-position: center;
+    height: 412px;
+}
+
+.footer-title {
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-icons {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.style-none {
+    color: #FFFFFF;
+    opacity: 60%;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.footer-container>p {
+    justify-content: center;
+    opacity: 60%;
+    margin-top: 2rem;
+}
